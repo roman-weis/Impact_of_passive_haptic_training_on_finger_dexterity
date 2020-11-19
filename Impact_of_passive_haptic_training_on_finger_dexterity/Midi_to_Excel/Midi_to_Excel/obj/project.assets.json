@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "IronXL.Excel/2020.9.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/IronXL.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IronXL.dll": {}
+        }
+      },
+      "Melanchall.DryWetMidi/5.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Melanchall.DryWetMidi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Melanchall.DryWetMidi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IronXL.Excel/2020.9.1": {
+      "sha512": "bg0IgLqUDY63/ee5WiyvQcLLLCwOu8/CHZc36rTeSryaJDRqGV1iEMxkbKFlp5iijf6V9CfkfqsCNU+d4sGRNQ==",
+      "type": "package",
+      "path": "ironxl.excel/2020.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ironxl.excel.2020.9.1.nupkg.sha512",
+        "ironxl.excel.nuspec",
+        "lib/net45/IronXL.dll",
+        "lib/net45/IronXL.xml",
+        "lib/netstandard2.0/IronXL.dll",
+        "lib/netstandard2.0/IronXL.xml",
+        "readme.txt"
+      ]
+    },
+    "Melanchall.DryWetMidi/5.1.1": {
+      "sha512": "CVMOKKZ6N7u6DU4hufzrEj+X4gqyTvz0K/lQj1ypIBYhY7W06IJ5p0DJqxkQuCh1jAm1E6dTt9Mo9C1LG9uguw==",
+      "type": "package",
+      "path": "melanchall.drywetmidi/5.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Melanchall.DryWetMidi.dll",
+        "lib/net45/Melanchall.DryWetMidi.xml",
+        "lib/netstandard2.0/Melanchall.DryWetMidi.dll",
+        "lib/netstandard2.0/Melanchall.DryWetMidi.xml",
+        "melanchall.drywetmidi.5.1.1.nupkg.sha512",
+        "melanchall.drywetmidi.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "IronXL.Excel >= 2020.9.1",
+      "Melanchall.DryWetMidi >= 5.1.1"
+    ]
+  },
+  "packageFolders": {
+    "/Users/romanweis/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/romanweis/Desktop/Midi_to_Excel/Midi_to_Excel/Midi_to_Excel.csproj",
+      "projectName": "Midi_to_Excel",
+      "projectPath": "/Users/romanweis/Desktop/Midi_to_Excel/Midi_to_Excel/Midi_to_Excel.csproj",
+      "packagesPath": "/Users/romanweis/.nuget/packages/",
+      "outputPath": "/Users/romanweis/Desktop/Midi_to_Excel/Midi_to_Excel/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/romanweis/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "IronXL.Excel": {
+            "target": "Package",
+            "version": "[2020.9.1, )"
+          },
+          "Melanchall.DryWetMidi": {
+            "target": "Package",
+            "version": "[5.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

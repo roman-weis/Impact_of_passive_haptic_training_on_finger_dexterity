@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+xPOEfncuMyw5cfvsJbK9UdZV5YFYgj9g4/zwkKS4SCNPO1pWcj8rqLnS1I/Y6qTkAPLRt/KNpdK8h8zn9EESw==",
+  "success": true,
+  "projectFilePath": "/Users/romanweis/Desktop/Midi_to_Excel/Midi_to_Excel/Midi_to_Excel.csproj",
+  "expectedPackageFiles": [
+    "/Users/romanweis/.nuget/packages/ironxl.excel/2020.9.1/ironxl.excel.2020.9.1.nupkg.sha512",
+    "/Users/romanweis/.nuget/packages/melanchall.drywetmidi/5.1.1/melanchall.drywetmidi.5.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

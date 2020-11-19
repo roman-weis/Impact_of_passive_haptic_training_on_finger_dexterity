@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{6EECF951-4F31-4468-A176-BEEFFE3B7C4B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Midi_to_Excel/Program.cs">
+    <Files>
+      <File FileName="Midi_to_Excel/Program.cs" Line="14" Column="118" />
+      <File FileName="Midi_to_Excel/Excel_Adapter.cs" Line="1" Column="1" />
+      <File FileName="Midi_to_Excel/ListConvertExtension.cs" />
+      <File FileName="Midi_to_Excel/Exercise_Result.cs" Line="1" Column="1" />
+      <File FileName="Midi_to_Excel/Midi_Reader.cs" Line="60" Column="1" />
+      <File FileName="Midi_to_Excel/Levenshtein.cs" />
+      <File FileName="Midi_to_Excel/Experimental_Directory_Reader.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Midi_to_Excel" expanded="True">
+            <Node name="Midi_to_Excel" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Midi__to__Excel PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/romanweis/Desktop/Midi_to_Excel/Midi_to_Excel/Midi_Reader.cs" relfile="Midi_to_Excel/Midi_Reader.cs" line="25" column="1" />
+      <Breakpoint file="/Users/romanweis/Desktop/Midi_to_Excel/Midi_to_Excel/Midi_Reader.cs" relfile="Midi_to_Excel/Midi_Reader.cs" line="60" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
